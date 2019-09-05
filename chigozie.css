@@ -1,0 +1,75 @@
+*{
+    background-color: aquamarine;
+    color: grey;
+    /* margin: 20px 10px 5px; */
+    box-sizing: border-box;
+   
+}
+.top{
+    margin:  auto;
+    width: 50%;
+
+}
+.personal h1{
+    text-align: center;
+   text-decoration: underline;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px red;
+    /* top: 50px; */
+}
+
+
+.personal table tr{
+    text-align: left;
+    font-size: large;
+}
+ h2{
+   text-decoration: underline;
+    font-size: 30px;
+}
+.summary{
+  width: 80%;
+  margin: auto;
+}
+.summary p{
+    font-size: 20px;
+     text-indent: 20px;
+}
+.work table th {
+text-align: left;
+/* float: left; */
+font-weight: bolder;
+color: red;
+font-size: 20px;
+}
+.work table th small {
+    color: red;
+}
+.work table td{
+    padding: 10px;
+    font-size: 20px;
+    }
+.edu table th {
+    text-align: left;
+    font-size: 20px;
+    }   
+.skills ul {   
+    font-weight: bolder;
+    color: red;
+    font-size: 20px;
+  list-style-type: square;
+    }
+  input[type=text],[type=email],[type=submit], textarea {
+      padding: 12px 20px;
+      border-radius: 20px;
+      margin: 8px 0;
+      background-color: white;
+  }    
+    input[type=submit]{
+        color: red;
+        cursor: pointer;
+    }
+ a{
+     color: blue;
+ }
+ 
